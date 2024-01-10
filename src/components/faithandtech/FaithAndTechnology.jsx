@@ -17,7 +17,7 @@ const FaithAndTechnology = () => {
         <div className="container mx-auto px-4 py-8">
           {/* Articles on AI and Faith */}
           <div className="text-center my-8" data-aos="fade-up">
-            <h2 className="text-3xl font-bold mb-4">
+            <h2 className="text-3xl font-bold mb-4 text-gradient">
               Articles on AI and Faith
             </h2>
             <p className="text-xs sm:text-sm lg:text-lg">

@@ -20,7 +20,7 @@ const NewsletterAndArticles = () => {
     <div className="bg-black text-white py-8">
       {/* Newsletter Subscription */}
       <div className="container mx-auto px-4 text-center" data-aos="fade-up">
-        <h2 className="text-3xl font-bold mb-4">Stay Updated</h2>
+        <h2 className="text-3xl font-bold mb-4 text-gradient">Stay Updated</h2>
         <p className="mb-4">
           Subscribe to our newsletter for regular updates and insights.
         </p>
@@ -45,7 +45,7 @@ const NewsletterAndArticles = () => {
           data-aos="fade-up"
           data-aos-delay="200"
         >
-          <h2 className="text-2xl text-slate-200 font-bold text-center mb-6">
+          <h2 className="text-2xl text-slate-200 font-bold text-center mb-6 ">
             Featured Articles
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

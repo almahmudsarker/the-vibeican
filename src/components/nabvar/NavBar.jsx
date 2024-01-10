@@ -17,7 +17,7 @@ const NavBar = () => {
       }}
     >
       <Container>
-        <nav className="flex items-center justify-between bg-gray p-6 backdrop-blur-sm">
+        <nav className="flex items-center justify-between bg-transparent p-6 ">
           <div className="sm:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -33,7 +33,7 @@ const NavBar = () => {
             } sm:block flex-grow  sm:items-center sm:w-auto`}
           >
             <a
-              href="/"
+              href="#home"
               className="block mt-4 sm:inline-block sm:mt-0 text-white hover:text-gray-50 mr-4"
             >
               Home
@@ -59,13 +59,13 @@ const NavBar = () => {
           >
             <a
               href="#login"
-              className="block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4"
+              className="block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white mr-4 text-gradient"
             >
               Login
             </a>
             <a
               href="#signup"
-              className="block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white"
+              className="block mt-4 sm:inline-block sm:mt-0 text-white hover:text-white text-gradient"
             >
               Sign Up
             </a>

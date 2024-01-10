@@ -3,7 +3,6 @@ import "aos/dist/aos.css"; // AOS styles
 import React, { useEffect } from "react";
 import historyImage from "../../assets/images/1.webp";
 import missionImage from "../../assets/images/2.webp";
-import { default as teamMemberPhoto } from "../../assets/images/text.png";
 import Container from "../Container";
 
 const AboutVibeican = () => {
@@ -81,7 +80,7 @@ const AboutVibeican = () => {
           </div>
 
           {/* The Team */}
-          <div className="text-center my-8" data-aos="zoom-in">
+          {/* <div className="text-center my-8" data-aos="zoom-in">
             <h2 className="text-3xl font-bold mb-4">The Team</h2>
             <div className="flex flex-wrap justify-center">
               <div className="m-4 bg-white bg-opacity-100 backdrop-filter backdrop-blur-lg p-4 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
@@ -117,9 +116,9 @@ const AboutVibeican = () => {
                 </h3>
                 <p className="text-slate-900">CTO</p>
               </div>
-              {/* Repeat for more team members */}
+              
             </div>
-          </div>
+          </div> */}
         </div>
       </Container>
     </div>

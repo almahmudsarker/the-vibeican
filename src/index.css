@@ -2,3 +2,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* animated text color gradient effect*/
+@keyframes gradientText {
+    0% {
+        color: #e96e0f;
+    }
+
+    50% {
+        color: #8a0063;
+    }
+
+    100% {
+        color: #182e44;
+    }
+}
+
+.text-gradient {
+    animation: gradientText 3s infinite alternate;
+}

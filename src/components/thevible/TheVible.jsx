@@ -3,9 +3,6 @@ import "aos/dist/aos.css"; // AOS styles
 import React, { useEffect } from "react";
 import cptrImg from "../../assets/images/bg1.png";
 import cptImg from "../../assets/images/bg2.png";
-import bitcoin from "../../assets/images/bitcoin.png";
-import mastercard from "../../assets/images/mastercard.png";
-import visa from "../../assets/images/visa.png";
 import Container from "../Container";
 
 const TheVible = () => {
@@ -22,7 +19,7 @@ const TheVible = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <h2 className="text-3xl font-bold mb-4">The Vible</h2>
+          <h2 className="text-5xl font-bold mb-4 text-gradient">The Vible</h2>
           <p className="text-lg">
             The Vible is a collection of chapters that are written by the
             community. Each chapter is written by a different person and is
@@ -46,10 +43,16 @@ const TheVible = () => {
               Faith and Vibes
             </h3>
             <img src={cptrImg} alt="Chapter 1" className="w-full h-auto mt-2" />
-            <p className="text-md mt-2 text-slate-400 text-center">
-              The Vible is a collection of chapters that are written by the
-              community. Each chapter is written by a different person and is
-              about a different topic.
+            <p className="text-md mt-2 text-slate-400 text-left">
+              Embark on a soulful journey with "Faith and Vibes," the inaugural
+              chapter of The Vible. Authored by a passionate member of our
+              community, this chapter explores the intricate dance between faith
+              and the subtle vibrations of life. The author weaves a tapestry of
+              experiences, illustrating how faith can harmonize with the
+              ever-changing rhythms of existence. Through a blend of personal
+              anecdotes and universal themes, readers are invited to contemplate
+              the profound connection between belief systems and the energies
+              that shape our realities.
             </p>
           </div>
 
@@ -59,33 +62,36 @@ const TheVible = () => {
               Pragmatic Faith
             </h3>
             <img src={cptImg} alt="Chapter 2" className="w-full h-auto mt-2" />
-            <p className="text-md mt-2 text-slate-400 text-center">
+            <p className="text-md mt-2 text-slate-400 text-left">
               The Vible is a collection of chapters that are written by the
               community. Each chapter is written by a different person and is
-              about a different topic.
+              about a different topic. In this chapter, "Pragmatic Faith," the
+              author explores the intersection of practicality and faith,
+              delving into how individuals can apply their beliefs in a
+              pragmatic way to navigate life's challenges and uncertainties. The
+              narrative unfolds with thought-provoking insights and real-world
+              examples, inviting readers to reflect on the role of faith in
+              their own pragmatic journeys.
             </p>
           </div>
         </div>
 
         {/* Interactive Elements */}
-        <div
+        {/* <div
           className="flex flex-wrap justify-center items-center p-6"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
           <div className="m-4">
             <img src={bitcoin} alt="Organization 1" className="w-30 h-10" />
-            {/* Add interactive elements or links */}
           </div>
           <div className="m-4">
             <img src={mastercard} alt="Organization 1" className="w-30 h-10" />
-            {/* Add interactive elements or links */}
           </div>
           <div className="m-4">
             <img src={visa} alt="Organization 1" className="w-30 h-10" />
-            {/* Add interactive elements or links */}
           </div>
-        </div>
+        </div> */}
       </Container>
     </div>
   );
